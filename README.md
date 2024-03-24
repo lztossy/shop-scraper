@@ -4,6 +4,12 @@ tired of searching for sites to buy stuff? no problem! our scraper gives you 100
 - this is stil in beta with much more updates to come
 - please use ConEmu to run the py as a terminal, windows works but is slower / the color doesnt work
 
+  # HOW TO USE
+  - install the latest python version (developed on Python 3.12.2)
+  - make a new folder called scraper beta on desktop and drag the files into that
+  - cmd to the directory and do pip install -r requirements.txt
+  - run the bat file, use  conemu for the best results
+
 notable features
 - optimized scraping times
 - scrapes for paypal express checkouts, visa mastercard, amex, discover & bitcoin
