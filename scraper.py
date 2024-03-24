@@ -4,25 +4,20 @@ from bs4 import BeautifulSoup
 import re
 import sys
 
-# Function to print in green text
 def print_green(text):
     print("\033[92m{}\033[0m".format(text))
 
-# Function to check if the specified payment method is found on the page
 def check_payment_method(url, payment_method):
     try:
-        response = requests.get(url, timeout=10)  # Added a timeout for the request
+        response = requests.get(url, timeout=10)  
         page_content = response.text.lower()
 
-        # Define patterns for different payment methods
         payment_patterns = {
             'paypal': r'paypal',
             'card': r'visa|mastercard|amex|discover',
             'bitcoin': r'bitcoin',
-            # Add more payment methods and their respective patterns here
         }
 
-        # If a pattern for the payment method exists, search for it
         if payment_method in payment_patterns:
             return re.search(payment_patterns[payment_method], page_content) is not None
         else:
@@ -32,19 +27,16 @@ def check_payment_method(url, payment_method):
         print_green(f"An error occurred while checking the payment method at URL {url}: {e}")
         return False
 
-# Ask the user for the country and the amount of scrapes
 country = input("Enter the country you want to scrape for: ")
 product_genre = input("Enter the product genre you want to scrape for: ")
 payment_method = input("What Payment method would you like to scrape for? ").lower()
 amount_of_scrapes = int(input("Enter the number of search results you want to scrape: "))
 
-# Formulate the search query with the user's input
 query = f"buy {product_genre} online {country}"
 print("Starting search...")
 
 search_results = []
 try:
-    # Use the 'num_results' parameter to specify the number of search results
     for url in search(query, num_results=amount_of_scrapes):
         search_results.append(url)
 except Exception as e:
