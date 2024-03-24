@@ -1,8 +1,8 @@
 # website-scraper
 tired of searching for sites to buy stuff? no problem! our scraper gives you 100s of URLS in under a minute
-python website scraper that searches google for country, product, payment. 
-this is stil in beta with much more updates to come
-please use ConEmu to run the py as a terminal, windows works but is slower / the color doesnt work
+- python website scraper that searches google for country, product, payment. 
+- this is stil in beta with much more updates to come
+- please use ConEmu to run the py as a terminal, windows works but is slower / the color doesnt work
 
 notable features
 - optimized scraping times
