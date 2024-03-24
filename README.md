@@ -15,7 +15,7 @@ notable features
 - scrapes for paypal express checkouts, visa mastercard, amex, discover & bitcoin
 - selection for how many results you need
 
-coming soon
+# COMING SOON 
 - captcha for the results
   - https://site2.com/ | Payments: [PayPal Express, Credit, Card] | Express Checkouts: [True] | Express: [PayPal, Shoppay] | Genre: [Clothes] | Shopify: [True] | Card Billing: [True] | Country [AUS]
 - proxy support
