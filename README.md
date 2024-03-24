@@ -6,8 +6,8 @@ tired of searching for sites to buy stuff? no problem! our scraper gives you 100
 
   # HOW TO USE
   - install the latest python version (developed on Python 3.12.2)
-  - make a new folder called scraper beta on desktop and drag the files into that
-  - cmd to the directory and do pip install -r requirements.txt
+  - make a new folder called **scraper beta** on desktop and drag the files into that
+  - cmd to the directory and do `pip install -r requirements.txt`
   - run the bat file, use  conemu for the best results
 
 notable features
