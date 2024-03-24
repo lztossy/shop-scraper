@@ -23,5 +23,5 @@ notable features
 - site decompiling, slower but better and more accurate results / hits
 - mixed hits (pretty much able to do multiple everything at a time)
 
-  I AM NOT RESPONSIBLE FOR ANY ILLEGAL USE WITH THIS PROGRAM
+ #  I AM NOT RESPONSIBLE FOR ANY ILLEGAL USE WITH THIS PROGRAM
   
