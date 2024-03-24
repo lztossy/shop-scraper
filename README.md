@@ -1,4 +1,4 @@
-# website-scraper
+# store website scraper
 tired of searching for sites to buy stuff? no problem! our scraper gives you 100s of URLS in under a minute
 - python website scraper that searches google for country, product, payment. 
 - this is stil in beta with much more updates to come
@@ -15,7 +15,7 @@ coming soon
 - proxy support
   - autohitter ?? enough stars and maybe ;)
 - site decompiling, slower but better and more accurate results / hits
-- mixed hits (pretty much able to do multiple genres at a time)
+- mixed hits (pretty much able to do multiple everything at a time)
 
   I AM NOT RESPONSIBLE FOR ANY ILLEGAL USE WITH THIS PROGRAM
   
